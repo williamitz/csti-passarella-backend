@@ -1,0 +1,43 @@
+{
+  "name": "passarella-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start:dev": "nodemon dist/index.js",
+    "start": "node dist/index"
+  },
+  "author": "William Calle Quintero",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.43",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3",
+    "redis": "^4.6.11",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/helmet": "^4.0.0",
+    "@types/jest": "^29.5.10",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/morgan": "^1.9.9",
+    "@types/pg": "^8.10.9",
+    "@types/supertest": "^2.0.16",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3",
+    "typescript": "^5.3.2"
+  }
+}
