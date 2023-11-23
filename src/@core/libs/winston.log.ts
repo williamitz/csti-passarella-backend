@@ -5,7 +5,7 @@ import { APP_MODE } from "../environments/global.environment";
 
 
 
-const errorFilePath = path.resolve(__dirname, '../logs/errors.log');
+const errorFilePath = path.resolve(__dirname, '../../logs/errors.log');
 
 const stream = fs.createWriteStream(errorFilePath);
 
