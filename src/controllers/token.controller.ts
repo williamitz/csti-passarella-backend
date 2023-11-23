@@ -73,7 +73,8 @@ export const onGenerateTokenCtrl = async ( req: Request, res: Response ) => {
         }
 
         return res.json({
-            message: 'Noooo por queeee :C',
+            ok: true,
+            message: 'successfuly',
             token: idToken
         });
         
@@ -98,11 +99,11 @@ export const onGetCreditCardCtrl = async ( req: Request, res: Response ) => {
         
         const { creditCard } = httpRequest;
 
-        console.log('creditCard ::: ', creditCard);
-
         const { cvv, idtoken, ...data } = creditCard;
 
         return res.json({
+            ok: true,
+            message: 'successfuly',
             data
         });
         
